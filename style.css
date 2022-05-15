@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 9px solid #fff;
+border-radius: 18px;
+
+}
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: rgb(36, 36, 36);
+}
+
+
+.slider{
+    background-color: rgb(146, 146, 146);
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.knob{
+    top: 15;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 10px;
+    position: absolute;
+    background-color: #fff;
+}
+
+.container{
+    background-color: #D32912;
+    padding: 20px;
+    border-radius: 20px;
+}
