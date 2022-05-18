@@ -42,4 +42,73 @@ body{
     background-color: #D32912;
     padding: 40px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button{
+    background-color: #fff;
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    border: 0;
+    padding: 14px;
+}
+
+.button-black{
+
+    background-color: #000;
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+    left: 50%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
+  }
+
+  button,
+input[type='color'] {
+  transition: transform 0.1s ease-in-out;
+}
+
+button:hover,
+input[type='color']:hover {
+  transform: scale(1.05);
+}
+
+input[type='color']:active {
+  transition: transform 0.05s ease-in-out;
+  transform: scale(1);
+}
+
+input[type='color'] {
+  width: 80px;
+  height: 80px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+input[type='color']::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+input[type='color']::-webkit-color-swatch {
+  border: none;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
