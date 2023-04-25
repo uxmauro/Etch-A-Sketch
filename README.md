@@ -1,3 +1,3 @@
 # Etch-A-Sketch
 
-[Preview](http://uxmauro.com/Etch-A-Sketch/) 👀
+[Preview](https://uxmauro.github.io/Etch-A-Sketch/) 👀
